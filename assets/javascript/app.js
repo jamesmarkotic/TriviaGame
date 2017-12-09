@@ -15,7 +15,6 @@
 */
 
 // Global Variables
-var timer = 45;
 var correct = 0;
 var incorrect = 0;
 var unanswered = 0;
@@ -23,14 +22,39 @@ var questions = ['q1' , 'q2', 'q3', 'q4']
 //
 
 // Timer
-function timerFunc () {
-  timer --;
-  console.log(timer);
-  // return timer;
-  $('.timer').html( ' ' + timer)
-}
+var timer = setInterval(function() {
 
-// var start =  $('#start').on('click', setInterval(timerFunc, 1000));
-
-
+  var count = parseInt($('.count').html());
+  if (count !== 0) {
+    $('.count').html(count - 1);
+  } else {
+    clearInterval(timer);
+  }
+}, 1000);
 //
+
+// Win/Loss Conditions
+if ()
+//
+
+// $('#start').on('click', setInterval(function () {
+//   for (var i = 1; i > 0; i = i - 1) {
+//     timer --;
+//     console.log(timer);
+//     $('.timer').html( ' ' + timer)
+//
+//   }
+// }, 1000));
+//
+// if (timer == 0) {
+//   return;
+// }
+
+// function timerFunc () {
+//   timer --;
+//   console.log(timer);
+//   $('.timer').html( ' ' + timer)
+//   if (timer == 0) {
+//     return;
+//   }
+// }

@@ -14,27 +14,37 @@
         <div class="row">
           <div class="col-md-12">
             <div class="jumbotron">
-              <h1>Futbol Quiz!</h1>
-              <h2 class="h2">Time Remaining:<span class="timer"></span></h2>
+              <h1>Soccer Quiz!</h1>
+              <h2 class="h2">Time Remaining:<span class="count">45</span></h2>
               <p><a id="start" class="btn btn-primary btn-lg" role="button">Start!</a></p>
               <form action="/success-page" class="simple-quiz">
-                <h3>Question 1</h3>
+                <h3>Only Goalkeepers can use their hands.</h3>
                 <label>
-                  <input type="radio" name="q1" value="A">
+                  <input type="radio" name="q1" value="0" data-correct>
                   True
                 </label>
                 <label>
-                  <input type="radio" name="q1" value="B" data-correct>
+                  <input type="radio" name="q1" value="1" >
                   False
                 </label>
 
-                <h3>Question 2</h3>
+                <h3>A hat trick is when someone scores 3 goals in one game.</h3>
                 <label>
-                  <input type="radio" name="q2" value="A" data-correct>
+                  <input type="radio" name="q2" value="0" data-correct>
                   True
                 </label>
                 <label>
-                  <input type="radio" name="q2" value="B">
+                  <input type="radio" name="q2" value="1">
+                  False
+                </label>
+
+                <h3>Peter Crouch is the greatest soccer player of all time.</h3>
+                <label>
+                  <input type="radio" name="q3" value="1">
+                  True
+                </label>
+                <label>
+                  <input type="radio" name="q3" value="0" data-correct>
                   False
                 </label>
               <form>
