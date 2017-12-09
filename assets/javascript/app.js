@@ -30,12 +30,38 @@ var timer = setInterval(function() {
   } else {
     clearInterval(timer);
   }
+  // return count;
 }, 1000);
 //
 
 // Win/Loss Conditions
-if ()
+// if (count == 0) {
+//   if ($('input[.q1]:checked').val(0)) {
+//     correct ++;
+//     console.log(correct);
+//   }
+//   else {
+//     incorrect ++;
+//   }
 //
+//   if ($('input[.q2]:checked').val(0)) {
+//     correct ++;
+//     console.log(correct);
+//   }
+//   else {
+//     incorrect ++;
+//   }
+//
+//   if ($('input[.q3]:checked').val(0)) {
+//     correct ++;
+//     console.log(correct);
+//   }
+//   else {
+//     incorrect ++;
+//   }
+// };
+//
+
 
 // $('#start').on('click', setInterval(function () {
 //   for (var i = 1; i > 0; i = i - 1) {
