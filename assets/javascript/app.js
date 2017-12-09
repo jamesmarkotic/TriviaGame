@@ -18,7 +18,7 @@
 var correct = 0;
 var incorrect = 0;
 var unanswered = 0;
-var questions = ['q1' , 'q2', 'q3', 'q4']
+// var questions = ['q1' , 'q2', 'q3', 'q4']
 //
 
 // Timer
