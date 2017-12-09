@@ -1,0 +1,46 @@
+<DOCTYPE html>
+  <html>
+    <head>
+      <title>Trivia Game</title>
+      <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+      <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+      <script src="assets/javascript/app.js"></script>
+    </head>
+
+    <body>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="jumbotron">
+              <h1>Futbol Quiz!</h1>
+              <h2 class="h2">Time Remaining:<span class="timer"></span></h2>
+              <p><a id="start" class="btn btn-primary btn-lg" role="button">Start!</a></p>
+              <form action="/success-page" class="simple-quiz">
+                <h3>Question 1</h3>
+                <label>
+                  <input type="radio" name="q1" value="A">
+                  True
+                </label>
+                <label>
+                  <input type="radio" name="q1" value="B" data-correct>
+                  False
+                </label>
+
+                <h3>Question 2</h3>
+                <label>
+                  <input type="radio" name="q2" value="A" data-correct>
+                  True
+                </label>
+                <label>
+                  <input type="radio" name="q2" value="B">
+                  False
+                </label>
+              <form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+  </html>

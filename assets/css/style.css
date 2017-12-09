@@ -1,0 +1,16 @@
+/*Tag Changes*/
+body {
+  background-image: url("../images/background.jpg");
+}
+
+/*Class changes*/
+.jumbotron {
+  margin: 30px auto;
+  max-width: 780px;
+  text-align: center;
+}
+
+/*ID Changes*/
+#start {
+  background: black;
+}
